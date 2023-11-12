@@ -60,6 +60,8 @@ body {
   opacity: 1 !important;
 }
 #app #wrapper .main .content {
+  overflow: auto;
+  height: 600px;
   background-color: rgba(31, 75, 103, 0.8);
 }
 #app #wrapper .main .content .product {

@@ -30,9 +30,8 @@ body {
     }
     .menu {
       li {
-        
         a {
-            transition: border,opacity .6s;
+          transition: border, opacity 0.6s;
           &:hover {
             border-bottom: 2px solid #fff;
             opacity: 1 !important;
@@ -44,84 +43,94 @@ body {
   // End Header
 
   // Wrapper
-  #wrapper{
-    .left-side{
-      ul{
-        li{
-          transition: background-color .6s;
+  #wrapper {
+    .left-side {
+      ul {
+        li {
+          transition: background-color 0.6s;
         }
-        .item:hover{
-          background-color: #1f4b67cc;;
+        .item:hover {
+          background-color: #1f4b67cc;
+        }
       }
-      }
-        
     }
-    .main{
-        .main-header{
-            li {
-        
-                a {
-                    transition: border,opacity .6s;
-                  &:hover {
-                    border-bottom: 2px solid #fff;
-                    opacity: 1 !important;
-                  }
-                }
-              }
-        }
-        .content{
-        
-            background-color: #1f4b67cc;
-            .product{
-              width: 40px;
-              img{
-                margin-right: 10px;
-              }
+    .main {
+      .main-header {
+        li {
+          a {
+            transition: border, opacity 0.6s;
+            &:hover {
+              border-bottom: 2px solid #fff;
+              opacity: 1 !important;
+            }
           }
-            .adobeStock{
-                background-image: url(../img/cubes.png), linear-gradient(to right top, #cf4af3, #e73bd7, #f631bc, #fd31a2, #ff3a8b, #ff4b78, #ff5e68, #ff705c, #ff8c51, #ffaa49, #ffc848, #ffe652);
-                
-                .glass{
-                    width: 200px;
-                }
-                a{
-                    transition: background-color .6s;
-                    &:hover{
-                        background-color: #0b56c5 !important;
-                    }
-                }
-            }
-            .installed{
-              li{
-                cursor: pointer;
-                transition: background-color .6s;
-                img{
-                  transition: transform .6s;
-                }
-                &:hover{
-                  background-color: rgb(54, 54, 54);
-                  img{
-                    transform: rotate(360deg);
-                  }
-                }
-              }
-            
-            }
-              .app{
-                transition: background-color .6s;
-                transition: transform .6s;
-                &:hover{
-                  background-color: #2c2c2c;
-                  cursor: pointer;
-                  transform: scale(1.05);
-                }
-              }
         }
-        
+      }
+      .content {
+        overflow: auto;
+        height: 600px;
+        background-color: #1f4b67cc;
+        .product {
+          width: 40px;
+          img {
+            margin-right: 10px;
+          }
+        }
+        .adobeStock {
+          background-image: url(../img/cubes.png),
+            linear-gradient(
+              to right top,
+              #cf4af3,
+              #e73bd7,
+              #f631bc,
+              #fd31a2,
+              #ff3a8b,
+              #ff4b78,
+              #ff5e68,
+              #ff705c,
+              #ff8c51,
+              #ffaa49,
+              #ffc848,
+              #ffe652
+            );
+
+          .glass {
+            width: 200px;
+          }
+          a {
+            transition: background-color 0.6s;
+            &:hover {
+              background-color: #0b56c5 !important;
+            }
+          }
+        }
+        .installed {
+          li {
+            cursor: pointer;
+            transition: background-color 0.6s;
+            img {
+              transition: transform 0.6s;
+            }
+            &:hover {
+              background-color: rgb(54, 54, 54);
+              img {
+                transform: rotate(360deg);
+              }
+            }
+          }
+        }
+        .app {
+          transition: background-color 0.6s;
+          transition: transform 0.6s;
+          &:hover {
+            background-color: #2c2c2c;
+            cursor: pointer;
+            transform: scale(1.05);
+          }
+        }
+      }
     }
   }
   // End Wrapper
 }
 // End App
-
-
